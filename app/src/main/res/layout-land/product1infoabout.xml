@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    android:layout_width="260sp"
+    android:layout_height="220sp" >
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/imageLogotip1"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_marginTop="30sp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/imageLogotip1"
+            android:id="@+id/textCompany" />
+
+        <TextView
+            android:id="@+id/webPage1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textCompany"
+            android:layout_centerHorizontal="true"
+            android:textSize="17sp"
+            android:layout_marginTop="15sp"
+            android:onClick="OnSitClick"
+            android:clickable="true"
+            android:textColor="@color/text_site_blue" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

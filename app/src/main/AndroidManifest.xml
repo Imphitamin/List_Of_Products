@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dmitry.lists" >
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/phone_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ListActivityActivity"
+            android:label="@string/app_name"
+            android:logo="@drawable/phone_logo" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+
+        <activity
+            android:name=".products.InfoAboutProductOne1"
+            android:label="@string/about_label"
+            android:logo="@drawable/phone_logo"
+            android:parentActivityName="com.example.dmitry.lists.ListActivityActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListActivityActivity"/>
+        </activity>
+        <activity
+            android:name=".products.AlcatelProductTwo2"
+            android:label="@string/about_label"
+            android:logo="@drawable/phone_logo"
+            android:parentActivityName="com.example.dmitry.lists.ListActivityActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListActivityActivity"/>
+        </activity>
+        <activity
+            android:name=".products.AppleProductThree3"
+            android:label="@string/about_label"
+            android:logo="@drawable/phone_logo"
+            android:parentActivityName="com.example.dmitry.lists.ListActivityActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListActivityActivity"/>
+        </activity>
+        <activity
+            android:name=".products.DnsProductFour4"
+            android:label="@string/about_label"
+            android:logo="@drawable/phone_logo"
+            android:parentActivityName="com.example.dmitry.lists.ListActivityActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListActivityActivity"/>
+        </activity>
+        <activity
+            android:name=".products.AcerProductFive5"
+            android:label="@string/about_label"
+            android:logo="@drawable/phone_logo"
+            android:parentActivityName="com.example.dmitry.lists.ListActivityActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListActivityActivity"/>
+        </activity>
+        <activity
+            android:name=".products.AsusProductSix6"
+            android:label="@string/about_label"
+            android:logo="@drawable/phone_logo"
+            android:parentActivityName="com.example.dmitry.lists.ListActivityActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListActivityActivity"/>
+        </activity>
+        <activity
+            android:name=".products.ExplayProductSeven7"
+            android:label="@string/about_label"
+            android:logo="@drawable/phone_logo"
+            android:parentActivityName="com.example.dmitry.lists.ListActivityActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListActivityActivity"/>
+        </activity>
+        <activity
+            android:name=".products.LenovoProductEight8"
+            android:label="@string/about_label"
+            android:logo="@drawable/phone_logo"
+            android:parentActivityName="com.example.dmitry.lists.ListActivityActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListActivityActivity"/>
+        </activity>
+        <activity
+            android:name=".products.LgProductNine9"
+            android:label="@string/about_label"
+            android:logo="@drawable/phone_logo"
+            android:parentActivityName="com.example.dmitry.lists.ListActivityActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListActivityActivity"/>
+        </activity>
+        <activity
+            android:name=".products.HuaweiProductTen10"
+            android:label="@string/about_label"
+            android:logo="@drawable/phone_logo"
+            android:parentActivityName="com.example.dmitry.lists.ListActivityActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListActivityActivity"/>
+        </activity>
+        <activity
+            android:name=".products.NokiaProductEleven11"
+            android:label="@string/about_label"
+            android:logo="@drawable/phone_logo"
+            android:parentActivityName="com.example.dmitry.lists.ListActivityActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListActivityActivity"/>
+        </activity>
+        <activity
+            android:name=".products.SamsungProductTwelve12"
+            android:label="@string/about_label"
+            android:logo="@drawable/phone_logo"
+            android:parentActivityName="com.example.dmitry.lists.ListActivityActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListActivityActivity"/>
+        </activity>
+        <activity
+            android:name=".products.SonyProductThirteen13"
+            android:label="@string/about_label"
+            android:logo="@drawable/phone_logo"
+            android:parentActivityName="com.example.dmitry.lists.ListActivityActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListActivityActivity"/>
+        </activity>
+        <activity
+            android:name=".products.ZteProductFourteen14"
+            android:label="@string/about_label"
+            android:logo="@drawable/phone_logo"
+            android:parentActivityName="com.example.dmitry.lists.ListActivityActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListActivityActivity"/>
+        </activity>
+
+
+
+
+        <activity
+            android:name=".info_screens.InfoScreenOne1"
+            android:label="@string/about_company"
+            android:theme="@style/ThemeInfoScreen" />
+        <activity
+            android:name=".info_screens.InfoScreenTwo2"
+            android:label="@string/about_company"
+            android:theme="@style/ThemeInfoScreen" />
+        <activity
+            android:name=".info_screens.InfoScreenThree3"
+            android:label="@string/about_company"
+            android:theme="@style/ThemeInfoScreen" />
+        <activity
+            android:name=".info_screens.InfoScreenFour4"
+            android:label="@string/about_company"
+            android:theme="@style/ThemeInfoScreen" />
+        <activity
+            android:name=".info_screens.InfoScreenFive5"
+            android:label="@string/about_company"
+            android:theme="@style/ThemeInfoScreen" />
+        <activity
+            android:name=".info_screens.InfoScreenSix6"
+            android:label="@string/about_company"
+            android:theme="@style/ThemeInfoScreen" />
+        <activity
+            android:name=".info_screens.InfoScreenSeven7"
+            android:label="@string/about_company"
+            android:theme="@style/ThemeInfoScreen" />
+        <activity
+            android:name=".info_screens.InfoScreenEight8"
+            android:label="@string/about_company"
+            android:theme="@style/ThemeInfoScreen" />
+        <activity
+            android:name=".info_screens.InfoScreenNine9"
+            android:label="@string/about_company"
+            android:theme="@style/ThemeInfoScreen" />
+        <activity
+            android:name=".info_screens.InfoScreenTen10"
+            android:label="@string/about_company"
+            android:theme="@style/ThemeInfoScreen" />
+        <activity
+            android:name=".info_screens.InfoScreenEleven11"
+            android:label="@string/about_company"
+            android:theme="@style/ThemeInfoScreen" />
+        <activity
+            android:name=".info_screens.InfoScreenTwelve12"
+            android:label="@string/about_company"
+            android:theme="@style/ThemeInfoScreen" />
+        <activity
+            android:name=".info_screens.InfoScreenThirteen13"
+            android:label="@string/about_company"
+            android:theme="@style/ThemeInfoScreen" />
+        <activity
+            android:name=".info_screens.InfoScreenFourteen14"
+            android:label="@string/about_company"
+            android:theme="@style/ThemeInfoScreen" />
+
+
+    </application>
+
+</manifest>
